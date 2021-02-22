@@ -1,0 +1,45 @@
+markdown: kramdown
+markdown_ext: 'markdown,mkdown,mkdn,mkd,md'
+highlighter: pygments
+gems:
+  - jekyll-paginate
+permalink: '/blog/:year/:month/:day/:title'
+title: Jekyll Metro
+tagline: A Metro theme for Jekyll
+description: A Sample blog using Jekyll Metro
+url: ''
+baseurl: ''
+navigation:
+  - text: About
+    url: /about/
+  - text: Resume
+    url: /resume/
+  - text: Blog
+    url: /blog/
+  - text: Tags
+    url: /tags/
+  - text: Archive
+    url: /archive/
+  - text: Search
+    url: /search/
+author: Abdel Raoof Olakara
+dribbble: null
+email: null
+facebook: 'https://www.facebook.com/olakara'
+flickr: null
+github: 'https://github.com/olakara'
+gplus: 'https://plus.google.com/100425464897246255887/'
+instagram: null
+pinterest: null
+linkedin: 'https://ae.linkedin.com/in/olakara/'
+rss: null
+stackoverflow: 'http://stackoverflow.com/users/185655/abdel-raoof'
+twitter: 'https://twitter.com/olakara'
+gahandler: UA-52149651-1
+footersvg: 'true'
+disqushandler: testingblogo
+txtpenhandler: testingblogo
+paginate: 10
+paginate_path: '/blog/page:num'
+destination: ./_site
+version: 0.9x beta 2
